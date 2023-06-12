@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#encabezado {
+  background-color: #1aab93;
+  height: 5vh;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: "Comfortaa";
+  font-size: 14px;
+}
+.buyNow {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  color: #fff;
+}
+.linkBuyNow {
+  color: #fff;
+}
+.intro {
+  display: flex;
+  align-items: flex-start;
+}
+#logoBrand {
+  height: 8vh;
+  width: 20vw;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 8vh;
+  align-items: center;
+  align-content: center;
+  margin: 10px;
+}
+#fast {
+  position: absolute;
+  color: #1aab93;
+  top: 30px;
+}
+#kart {
+  position: absolute;
+  top: 30px;
+  left: 105px;
+}
+#pointLogo {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  color: #1aab93;
+}
+#buscador {
+  width: 50vw;
+  position: relative;
+  margin: 10px;
+}
+#location {
+  top: 6px;
+  height: 6vh;
+  background-color: rgba(231, 231, 231, 1);
+  position: absolute;
+  box-shadow: 2px 2px 5px rgb(158, 155, 155);
+}
+.inputBox {
+  position: absolute;
+  height: 6vh;
+  width: 450px;
+  left: 80px;
+  top: 1vh;
+}
+.botonBusqueda {
+  position: absolute;
+  max-height: 6vh;
+  left: 530px;
+  top: 6px;
+  border-radius: 2px;
+}
+.navInteraction {
+  width: 30vw;
+  position: relative;
+  margin: 10px;
+}
+.phone {
+  position: absolute;
+  max-height: 6vh;
+  top: 1vh;
+}
+.linePhone {
+  position: absolute;
+  max-height: 6vh;
+  top: 1vh;
+  left: 35px;
+  color: darkgrey;
+}
+.like {
+  position: absolute;
+  max-height: 6vh;
+  left: 60px;
+  top: 1vh;
+}
+#countLike {
+  background-color: #ff0000;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  left: 80px;
+  color: #fff;
+  justify-content: center;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Comfortaa";
+
+  /* visibility: hidden; */
+}
+
+.cardFigureFavo {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  padding: 2px;
+}
+.lineLike {
+  position: absolute;
+  max-height: 6vh;
+  top: 1vh;
+  left: 90px;
+  color: darkgrey;
+}
+.shopCart {
+  position: absolute;
+  max-height: 6vh;
+  top: 1vh;
+  left: 120px;
+}
+.countCart {
+  background-color: #ff0000;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  left: 140px;
+  color: #fff;
+}
+.lineShop {
+  position: absolute;
+  max-height: 6vh;
+  top: 1vh;
+  left: 150px;
+  color: darkgrey;
+}
+.account {
+  position: absolute;
+  max-height: 6vh;
+  top: 1vh;
+  left: 180px;
+}
+.categorias {
+  display: flex;
+  height: 8vh;
+  margin: 8px;
+  justify-content: first baseline;
+  align-items: baseline;
+  align-content: center;
+}
+#divBuscador {
+  width: 20vw;
+  position: relative;
+}
+#btnCateg {
+  position: absolute;
+  left: 50px;
+  top: 6px;
+  background-color: #1aab93;
+  height: 30px;
+  width: 120px;
+  border-radius: 1px;
+  border-color: #1aab93;
+  font-family: "Comfortaa";
+}
+#navIconos {
+  position: absolute;
+  width: 60vw;
+  left: 280px;
+  height: 8vh;
+  font-family: "Comfortaa";
+}
+#navIconos a {
+  position: relative;
+  top: 15px;
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+}
+#navRecharge {
+  position: relative;
+  width: 10vw;
+}
+
+#navRecharge {
+  position: absolute;
+  right: 50px;
+  top: 110px;
+}
+#navIconos img {
+  display: inline-block;
+  width: 1px;
+}
+.ofertasContainer {
+  display: grid;
+  background-color: darksalmon;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  column-gap: 5px;
+  row-gap: 6px;
+  grid-template-areas:
+    "itemFruitVegeta itemFruitVegeta itemDryFruit"
+    "itemFruitVegeta itemFruitVegeta itemOrganic"
+    "itemEggs itemFruit itemMeat";
+}
+@media (max-width: 1400px) {
+  .ofertasContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.itemFruitVegeta {
+  padding: 160px 50px;
+  background-color: violet;
+  margin: 10px;
+  grid-area: itemFruitVegeta;
+  font-size: 20px;
+}
+#fondoFrVe {
+  display: inline-flex;
+  justify-content: flex-end;
+  height: 50vh;
+  transform: translate(200px, -165px);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 2;
+}
+#dtoFruVeget {
+  background: linear-gradient(to right, rgb(236, 143, 143), rgb(185, 179, 179));
+}
+#frVe {
+  height: 30vh;
+  transform: translate(-250px, -155px);
+}
+#btnShopNow {
+  display: inline-flex;
+  height: 5vh;
+  width: 10vw;
+  transform: translate(10px, -200px);
+  text-align: center;
+  background-color: rgb(243, 70, 70);
+}
+.itemDryFruit {
+  background-color: rgb(188, 104, 79);
+  margin: 5px;
+  grid-area: itemDryFruit;
+}
+.itemOrganic {
+  background-color: rgb(79, 9, 79);
+  margin: 5px;
+  grid-area: itemOrganic;
+}
+.itemEggs {
+  background-color: rgb(130, 238, 150);
+  margin: 5px;
+  grid-area: itemEggs;
+}
+.itemFruit {
+  background-color: rgb(28, 119, 172);
+  margin: 5px;
+  grid-area: itemFruit;
+}
+.itemMeat {
+  background-color: rgb(146, 130, 238);
+  margin: 5px;
+  grid-area: itemMeat;
+}
+
+.base-timer {
+  position: relative;
+  width: 50px;
+  height: 10px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__rectangle {
+  fill: crimson;
+  stroke: crimson;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: rgb(7, 69, 123);
+  font-weight: bolder;
+}
+.mediaPart {
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: 1fr, 2fr;
+  grid-template-areas: "asideCategory productsCards";
+  font-family: "Comfortaa";
+}
+.asideCategory {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245, 241, 241);
+  padding: 3px 10px;
+}
+.asideCategory h2 {
+  font-size: 32px;
+}
+.asideCategory a {
+  display: inline-flex;
+  padding: 5px;
+  width: 2px;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  align-items: center;
+}
+.imgAsideVege {
+  width: 30px;
+  height: 30px;
+}
+#discountsCards {
+  padding: 15px;
+}
+#temporal {
+  display: flex;
+  text-align: justify;
+  background-color: crimson;
+  width: 150px;
+  padding: 10px;
+  gap: 5px;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 3px;
+}
+.adornoTitle {
+  width: 200px;
+  transform: translate(0, -18px);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 300px;
+  background-color: rgb(245, 241, 241);
+  position: relative;
+  border-radius: 3px;
+}
+.cardFigure {
+  height: 50%;
+  position: relative;
+  padding: 10px;
+}
+.cardFigure img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 3px;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 4px;
+  gap: 3px;
+  width: 100%;
+}
+.addProducts {
+  display: flex;
+  position: relative;
+  left: 50px;
+  bottom: -105px;
+  margin: 2px;
+  padding: 10px;
+}
+.btnAdd {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 45px;
+  left: 40px;
+  bottom: 10px;
+  border-color: #fff;
+  color: #1aab93;
+  font-weight: bolder;
+}
+.btnSpr {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 45px;
+  right: 150px;
+  bottom: 10px;
+  border-color: #fff;
+  color: #1aab93;
+  font-weight: bolder;
+}
+.quantity {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  height: 26px;
+  background-color: #fff;
+  justify-content: center;
+  border-radius: 45px;
+  left: -30px;
+  bottom: 10px;
+  align-items: center;
+}
+.cardType {
+  color: grey;
+  font-weight: bolder;
+  font-size: 12px;
+  line-height: 1;
+}
+.cardNom {
+  font-weight: bolder;
+  font-size: 13px;
+  width: 100%;
+}
+.cardCant {
+  font-weight: bolder;
+  font-size: 13px;
+  color: #848484;
+}
+.cardPrice {
+  bottom: 27px;
+  left: 20px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #1aab93;
+}
+
+#productsCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  border-radius: 3px;
+}
+.material-symbols-outlined {
+  visibility: hidden;
+  position: absolute;
+  color: rgb(255, 6, 6);
+  top: 116px;
+  left: 114px;
+  cursor: pointer;
+  background-color: rgb(245, 241, 241);
+  border-radius: 3px;
+  border: 1px solid #333333;
+}
+.card:hover .material-symbols-outlined {
+  visibility: visible;
+}
+.footerMenu {
+  display: grid;
+  column-gap: 3px;
+  grid-template-areas: "logoBrand footerCategories footerUsefulLinks footerHelp footerContact";
+  background-color: rgb(249, 180, 215);
+  grid-template-columns: 1fr;
+  font-family: "Comfortaa";
+  padding: 5px;
+}

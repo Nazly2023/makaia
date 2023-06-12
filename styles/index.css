@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.headerInfo {
+  /* background-color: #2a41e8; */
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 65px;
+}
+.headerInfo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.headerInfo div {
+  display: flex;
+  gap: 60px;
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 36px;
+}
+.headerLinks {
+  display: flex;
+  align-items: center;
+}
+.headerList {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+.headerFavorites {
+  display: flex;
+  gap: 163px;
+  align-items: center;
+}
+.headerNav a {
+  text-decoration: none;
+  color: #4b4d4f;
+  font-weight: 500px;
+}
+.headerFavorites button {
+  /* background-color: #ff5e14; */
+  color: #ffffff;
+  border: none;
+  padding: 30px;
+}
+.headerFigure img {
+  height: 73px;
+  width: auto;
+}
+.headerBanner {
+  background-image: url("../images/hero-bg-image.png");
+  height: 663px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 157px 227px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.headerBanner h1 {
+  font-size: 2rem;
+}
+.headerBanner p {
+  font-size: 1.125rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 398px;
+  height: 519px;
+}
+.cardFigure {
+  height: 50%;
+  position: relative;
+}
+.cardFigure img {
+  width: 100%;
+  height: 100%;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 42px;
+  gap: 20px;
+}
+.carCity {
+  font-size: 14px;
+  color: #848484;
+}
+.cardAddress {
+  font-size: 20px;
+  /* color: #1d1d1d; */
+}
+.cardContact {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.cardContactFigure {
+  display: flex;
+  gap: 6px;
+  color: #2a41e8;
+}
+.cardContact img {
+  width: 16px;
+  height: 16px;
+}
+.cardContact span {
+  color: #848484;
+}
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.cardInfoFigure {
+  display: flex;
+  gap: 7px;
+  color: #111111;
+  font-weight: 500;
+}
+.cardInfoImage {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+.cardInfoImage span {
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.cardType {
+  background-color: #2a42e8;
+}
+.cardStatus {
+  background-color: #ff5e15;
+}

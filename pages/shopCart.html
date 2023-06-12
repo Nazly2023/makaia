@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styleShopCart.css">
+    <title>Shop Cart</title>
+</head>
+
+<body>
+    <header>
+        <section id="encabezado">
+            <p class="buyNow">Something you love is now on Sale!
+                <a class="linkBuyNow" href="">Buy now!</a>
+            </p>
+        </section>
+
+        <section class="intro">
+            <div id="logoBrand">
+                <span id="fast">Fast</span><span id="kart">kart</span><span id="pointLogo">.</span>
+            </div>
+
+            <form id="buscador">
+                <a>
+                    <img src="../images/location.png" alt="Ubicación" id="location">
+                </a>
+                <label>
+                    <input type="text" placeholder="I'm searching for..." class="inputBox">
+                </label>
+                <button type="submit" class="submit">
+                    <img src="../images/búsqueda.png" alt="botonBusqueda" class="botonBusqueda">
+                </button>
+            </form>
+
+            <section class="navInteraction">
+                <a href="phone">
+                    <img src="../images/phone.png" class="phone">
+                    <img src="../images/verticalLine.png" class="linePhone">
+                </a>
+                <a href="like">
+                    <img src="../images/favorite.png" class="like">
+                    <img src="../images/verticalLine.png" class="lineLike">
+                </a>
+                <a href="shopCart">
+                    <img src="../images/shopping_cart.png" class="shopCart">
+                    <img src="../images/verticalLine.png" class="lineShop">
+                </a>
+                <a href="account">
+                    <img src="../images/person.png" class="account">
+                </a>
+            </section>
+        </section>
+
+        <section class="categorias">
+            <div id="divBuscador">
+                <button id="btnCateg">All categories</button>
+            </div>
+
+            <nav id="navIconos">
+                <a href="home">Home
+                    <!-- <img src="./images/ptaFlechaDown.png"> -->
+                </a>
+                <a href="shop">Shop
+                    <!-- <img src="./images/ptaFlechaDown.png"> -->
+                </a>
+                <a href="product">Product</a>
+                <a href="megaMenu">Mega Menu</a>
+                <a href="blog">Blog</a>
+                <a href="pages">Pages</a>
+                <a href="contact">Contact</a>
+            </nav>
+            <nav id="navRecharge">
+                <button .class='btnRecharge'>
+                    <img src="../images/energy.png" class="imgRecharge">
+                </button>
+            </nav>
+        </section>
+    </header>
+    <form id="formShopCart">Total compras
+        <label>Coupon Apply</label>
+        <input type="text" name="Coupon Apply" id="" placeholder="Enter Coupon Code Here...">
+        <button type="submit">Apply</button>
+        <button>Process To Checkout</button>
+        <button>Return To Shopping
+            <img src="../images/arrowBack.png" alt="">
+        </button>
+    </form>
+    <form id="formInfoClient">
+        <input type="text" name="Nom" id="nom" placeholder="Nombre">
+        <input type="text" name="Address" id="address" placeholder="Dirección">
+        <input type="number" name="phone" id="phone" placeholder="Teléfono">
+        <button type="submit">Cancel</button>
+        <button type="submit">Buy Now</button>
+    </form>
+    <script src="../scripts/dataShopCart.js" type="module"></script>
+</body>
+
+</html>

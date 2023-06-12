@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(252, 168, 168);
+}
+.productsFavorites {
+  background-color: blanchedalmond;
+}
+.cardFavorites {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 400px;
+  background-color: rgb(245, 241, 241);
+  position: relative;
+  border-radius: 3px;
+  justify-content: space-around;
+  -webkit-box-shadow: inset -22px -10px 54px 1px rgba(255, 205, 139, 0.75);
+  -moz-box-shadow: inset -22px -10px 54px 1px rgba(252, 216, 71, 0.75);
+  box-shadow: inset -22px -10px 54px 1px rgba(160, 160, 160, 0.75);
+}
+.cardFigureFavo {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  padding: 10px;
+  align-items: flex-start;
+}
+.cardFigureFavo img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 3px;
+}
+.cardBodyFavorite {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 4px;
+  gap: 3px;
+  width: 100%;
+  position: relative;
+}
+.cardNomFavorite {
+  font-weight: bolder;
+  font-size: larger;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  justify-content: center;
+  font-family: "Comfortaa";
+  text-align: center;
+}
+.cardPriceFavorite {
+  bottom: 27px;
+  /* left: 20px; */
+  font-size: larger;
+  font-weight: bolder;
+  color: #1aab93;
+  position: relative;
+  justify-content: center;
+  font-family: "Comfortaa";
+  top: 10px;
+  text-align: center;
+}
+
+#productFavo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  border-radius: 3px;
+}
+.btnAddCart {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  left: 0px;
+  bottom: 100px;
+  border-color: #fff;
+  color: #1aab93;
+  font-weight: bolder;
+}
+.btnSprCart {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 45px;
+  left: 120px;
+  top: -435px;
+  border-color: #d5d5d5;
+  color: #000000;
+  font-weight: bolder;
+}
